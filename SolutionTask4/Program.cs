@@ -8,9 +8,18 @@
    
 //     Console.WriteLine(outputNumber);
 // }
+// string? inputLine = Console.ReadLine();
+// if (inputLine !=null)
+// {
+//     string lastNum = inputLine.Substring(2,1);
+//     Console.WriteLine(lastNum);
+// }
+
 string? inputLine = Console.ReadLine();
-if (inputLine !=null)
+
+if(inputLine != null)
 {
-    string lastNum = inputLine.Substring(2,1);
-    Console.WriteLine(lastNum);
+    char[] M = inputLine.ToCharArray();
+   
+    Console.WriteLine(M[2]);
 }
