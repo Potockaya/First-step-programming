@@ -1,6 +1,6 @@
-﻿string inputLine1 = Console.ReadLine();
-string inputLine2 = Console.ReadLine();
-string inputLine3 = Console.ReadLine();
+﻿string? inputLine1 = Console.ReadLine();
+string? inputLine2 = Console.ReadLine();
+string? inputLine3 = Console.ReadLine();
 if (inputLine1 != null && inputLine2 != null && inputLine3 != null){
     int inputNumber1 = int.Parse(inputLine1);
     int inputNumber2 = int.Parse(inputLine2);
