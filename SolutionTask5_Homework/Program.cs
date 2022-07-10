@@ -1,5 +1,5 @@
-﻿string inputLine1 = Console.ReadLine();
-string inputLine2 = Console.ReadLine();
+﻿string? inputLine1 = Console.ReadLine();
+string? inputLine2 = Console.ReadLine();
 int max = 0;
 if (inputLine1 != null && inputLine2 != null){
     int inputNumber1 = int.Parse(inputLine1);
