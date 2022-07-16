@@ -43,3 +43,31 @@ Console.WriteLine("Нет");
 // }
 
 // }
+
+
+// 3 вариантConsole.Write("Enter first number: ");
+// string? firstLine = Console.ReadLine();
+// Console.Write("Enter second number: ");
+// string? secondLine = Console.ReadLine();
+// int first = int.Parse(firstLine);
+// int second = int.Parse(secondLine);
+
+// bool fSecond = Math.Sqrt(second) == first;
+// bool sFirst = Math.Sqrt(first) == second;
+
+// if (fSecond == true)
+// {
+// Console.WriteLine("второе квадрат первого");
+// }
+// else
+// {
+// if (sFirst == true)
+// {
+// Console.WriteLine("первое квадрат второго");
+
+// }
+// else
+// {
+// Console.WriteLine("ни одно не квадрат другого");
+// }
+// }
