@@ -1,4 +1,5 @@
-﻿Console.Clear();
+﻿// Входные данные
+Console.Clear();
 Console.Write("Введите число!");
 string inputLineNumber = Console.ReadLine() ?? "";
 int inputNumber = int.Parse(inputLineNumber);
@@ -6,6 +7,7 @@ int sumOfNumbers;
 
 DateTime timePoint = DateTime.Now;
 
+//Метод суммы цифр внутри заданного числа (для 2х,3х, 4х значных чисел)
 void VariantSimple()
 {
     if (inputLineNumber.ToCharArray().Length == 2)
@@ -33,6 +35,8 @@ void VariantSimple()
         Console.WriteLine(sumOfNumbers);
     }
 }
+
+// Выводные данные
 timePoint = DateTime.Now;
 VariantSimple();
 Console.WriteLine(DateTime.Now - timePoint);
