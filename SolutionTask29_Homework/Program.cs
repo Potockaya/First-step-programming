@@ -18,10 +18,10 @@ void VariantNaive()
     Console.Write("[");
     while(i<inputNumber-1)
     {
-        Console.Write(numberSintezator.Next(inputDiapason,inputDiapasonEnd)+",");
+        Console.Write(numberSintezator.Next(inputDiapason,inputDiapasonEnd+1)+",");
         i++;
     }
-    Console.Write(numberSintezator.Next(inputDiapason,inputDiapasonEnd));
+    Console.Write(numberSintezator.Next(inputDiapason,inputDiapasonEnd+1));
     Console.Write("]");
 } 
 VariantNaive();
