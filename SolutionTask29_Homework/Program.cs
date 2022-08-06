@@ -1,4 +1,5 @@
-﻿Console.Clear();
+﻿//Вводные данные
+Console.Clear();
 Console.Write("Введите длину массива!");
 string inputLineNumber = Console.ReadLine() ?? "";
 int inputNumber = int.Parse(inputLineNumber);
@@ -11,7 +12,10 @@ Console.Write("Введите конец диапазона значений!");
 string inputDiapasonEndNumber = Console.ReadLine() ?? "";
 int inputDiapasonEnd = int.Parse(inputDiapasonEndNumber);
 
+//Создание объекта для генерации чисел
 System.Random numberSintezator = new Random();
+
+// Метод получения случайного диапазона чисел
 void VariantNaive()
 {
     int i =0;
